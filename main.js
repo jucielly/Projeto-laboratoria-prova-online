@@ -3,7 +3,6 @@ let saudacao = document.getElementById("welcome")
 saudacao.innerHTML = "Seja Bem vindo(a) " + name +"!"
 let questaoInicio = prompt("Gostaria de continuar?  digite o numero da sua resposta\n1: sim\n 2: não")
 
-
 if(questaoInicio == 1) {
  alert("Pode seguir em frente!")
 }else{
@@ -20,7 +19,7 @@ let respostaIncorreta1 = document.getElementById("wrong1")
 if(questao1 == 1) {
     correct1.innerHTML = "Resposta Correta 1"
 }else{
-    wrong2.innerHTML = "Resposta  incorreta 1"
+    wrong1.innerHTML = "Resposta  incorreta 1"
 }
 
 
