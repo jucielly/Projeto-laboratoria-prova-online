@@ -1,0 +1,45 @@
+html {
+    background-color: azure;
+    
+}
+.bem-vindo {
+    text-align: center;
+}
+
+.box-module1 {
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+    bottom: 20%;
+    right: 50%;
+    top: 20%;
+    border: 1px solid black;
+    width: 20%;
+    height: 300px;
+} 
+.box-module2 {
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    top: 20%;
+    border: 1px solid black;
+    width: 20%;
+    height: 300px;
+} 
+
+.titulo-resposta {
+    text-align: center;
+    border-block-end: 1px solid black;
+}
+
+.respostas-corretas{
+    text-align: center;
+    color: chartreuse;
+}
+
+.respostas-incorretas{
+    text-align: center;
+    color: red;
+}
